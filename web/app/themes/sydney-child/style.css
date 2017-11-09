@@ -1,0 +1,17 @@
+/*
+Theme Name: AFFINITY MWS TEME
+Theme URI: http://affinitymws.com  
+Description: Affinity Marketing and Web Solutions 2.0 Theme
+Author: Andrew Exton
+Author URI: http://affinitymws.com
+Template: sydney
+Version: 1.0.0
+*/
+
+.site-header.float-header {
+  padding: 15px;
+}
+
+.site-info.container {
+    text-align: center;
+}
