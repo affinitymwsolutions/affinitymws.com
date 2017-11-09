@@ -21,8 +21,7 @@
 		
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
-			<p>Proudly built with <a href="https://wordpress.org" alt="Wordpress PHP Framework">Wordpress</a></p>
-			<p>By <a href="https://affinitymws.com">Affinity Marketing + Web Solutions</a></p>
+			<p><a href="https://affinitymws.com">Affinity Marketing and Web Solutions, LLC</a></p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 
