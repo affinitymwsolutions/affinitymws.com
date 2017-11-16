@@ -17,6 +17,20 @@ header#masthead {
   padding: 15px;
 }
 
+.sydney-hero-area {
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.site-footer {
+  border-top: 1px solid black;
+  background-color: #efefef !important;
+  -webkit-box-shadow: inset 0px 12px 15px -10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0px 12px 15px -10px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 12px 15px -10px rgba(0, 0, 0, 0.4);
+}
+
 .site-footer,
 .site-footer a {
   color: #DEDEDE;
@@ -89,4 +103,29 @@ header#masthead {
   margin-left: -16px;
 }
 
+.sydney_testimonials_widget {
+  height: inherit;
+  padding-top: 30px;
+  margin: 0 15%;
+}
+
+.widget_fp_social {
+  padding: 20px 0;
+  width: 60%;
+  margin: auto;
+}
+
+.sydney_contact_info_widget, .sydney_action_widget {
+  padding: 20px;
+}
+
+.sydney_testimonials_widget,
+.widget_fp_social,
+.sydney_action_widget,
+.sydney_contact_info_widget {
+  border: 1px solid black;
+  -webkit-box-shadow: 0px 15px 20px -20px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 15px 20px -20px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 15px 20px -20px rgba(0, 0, 0, 0.6);
+}
 
