@@ -30,3 +30,21 @@ header#masthead {
   box-shadow: 0px 15px 20px -20px rgba(0, 0, 0, 0.6);
 }
 
+.blog-post-container {
+  padding: 12px;
+}
+
+.blog-post {
+  border: 1px black solid;
+  -webkit-box-shadow: 0px 15px 20px -20px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 15px 20px -20px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 15px 20px -20px rgba(0, 0, 0, 0.6);
+}
+
+.blog-post > .entry-details {
+  padding: 18px;
+}
+
+.archive-page-header {
+  display: none;
+}
