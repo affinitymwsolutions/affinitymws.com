@@ -21,6 +21,7 @@
 		
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
+			<p>Creating ideas with <a id="beating-heart">♥</a></p>
 			<p><a href="https://affinitymws.com">Affinity Marketing and Web Solutions, LLC</a></p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

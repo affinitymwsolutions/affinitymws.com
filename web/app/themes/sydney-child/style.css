@@ -17,6 +17,11 @@ header#masthead {
   padding: 15px;
 }
 
+.site-footer,
+.site-footer a {
+  color: #DEDEDE;
+}
+
 .site-info.container {
     text-align: center;
 }
@@ -48,3 +53,40 @@ header#masthead {
 .archive-page-header {
   display: none;
 }
+
+@keyframes heartbeat {
+  0% {
+    transform: scale( .75);
+  }
+  20% {
+    transform: scale( 1);
+  }
+  40% {
+    transform: scale( .75);
+  }
+  60% {
+    transform: scale( 1);
+  }
+  80% {
+    transform: scale( .75);
+  }
+  100% {
+    transform: scale( .75);
+  }
+}
+
+.site-info > p {
+  margin-bottom: 0;
+}
+
+#beating-heart {
+  color: #ed4c4c;
+  width: 50px;
+  height: 50px;
+  animation: heartbeat 1s infinite;
+  display: inline-block;
+  font-size: 24px;
+  margin-left: -16px;
+}
+
+
