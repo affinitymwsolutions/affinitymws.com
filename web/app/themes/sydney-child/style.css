@@ -31,6 +31,7 @@ header#masthead {
   box-shadow: inset 0px 12px 15px -10px rgba(0, 0, 0, 0.4);
 }
 
+
 .site-footer,
 .site-footer a {
   color: #DEDEDE;
@@ -39,6 +40,17 @@ header#masthead {
 .site-info.container {
     text-align: center;
 }
+
+.footer-widgets {
+  background-color:#393939 !important;
+}
+
+.footer-widgets aside {
+  background-color: #4e4e4e !important;
+  padding: 20px !important;
+  text-align: center;
+}
+
 
 .roll-team.carousel .team-item {
   padding: 8px 8px;
