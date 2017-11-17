@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2754810989284866fedecde3216a8996",
+    "content-hash": "95f155e6528265f92c7c3279f9ab1f6b",
     "packages": [
         {
             "name": "andrewexton373/wp-sync-db",
@@ -745,6 +745,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-fastest-cache/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-piwik",
+            "version": "1.0.18",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-piwik/",
+                "reference": "tags/1.0.18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-piwik.1.0.18.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-piwik/"
         },
         {
             "name": "wpackagist-theme/astrid",
