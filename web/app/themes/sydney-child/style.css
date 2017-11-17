@@ -51,6 +51,9 @@ header#masthead {
   text-align: center;
 }
 
+.footer-widgets .widget-title {
+  font-size: 20px;
+}
 
 .roll-team.carousel .team-item {
   padding: 8px 8px;
