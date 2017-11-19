@@ -48,7 +48,7 @@
     "wpackagist-plugin/siteorigin-panels": "~2.5.14",
     "wpackagist-plugin/wordfence": "~6.3.21",
     "wpackagist-plugin/wp-fastest-cache": "~0.8.7.4",
-    "wpackagist-plugin/wp-piwik": "1.0.18",
+    "wpackagist-plugin/wp-piwik": "~1.0.19",
     "wpackagist-plugin/all-in-one-seo-pack": "~2.4.2",
     "wpackagist-plugin/ewww-image-optimizer": "~4.0.0",
     "wpackagist-plugin/contact-form-7": "~4.9.1"

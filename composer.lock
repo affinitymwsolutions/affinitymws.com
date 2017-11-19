@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "95f155e6528265f92c7c3279f9ab1f6b",
+    "content-hash": "b1685ed4053f4c51e58801cf15a3023a",
     "packages": [
         {
             "name": "andrewexton373/wp-sync-db",
@@ -748,15 +748,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-piwik",
-            "version": "1.0.18",
+            "version": "1.0.19",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-piwik/",
-                "reference": "tags/1.0.18"
+                "reference": "tags/1.0.19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-piwik.1.0.18.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-piwik.1.0.19.zip",
                 "reference": null,
                 "shasum": null
             },
