@@ -648,16 +648,16 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "4.0.2",
+            "version": "4.0.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/4.0.2"
+                "reference": "tags/4.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.4.0.2.zip",
-                "reference": "tags/4.0.2",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.4.0.3.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -668,15 +668,15 @@
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",
-            "version": "2.5.15",
+            "version": "2.5.16",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
-                "reference": "tags/2.5.15"
+                "reference": "tags/2.5.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.5.15.zip",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.5.16.zip",
                 "reference": null,
                 "shasum": null
             },
