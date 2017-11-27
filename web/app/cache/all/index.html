@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://affinitymws.dev/wp/xmlrpc.php">
+<title>Affinity Marketing &amp; Web Solutions |</title>
+<meta name='robots' content='noindex,follow' />
+<!-- All in One SEO Pack 2.4.3 by Michael Torbert of Semper Fi Web Design[254,299] -->
+<meta name="description"  content="Our Services Graphic Design Market Research Development Employees Connor Duff Manager of Sales" />
+<link rel="canonical" href="https://affinitymws.dev/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Affinity Marketing &amp; Web Solutions &raquo; Feed" href="https://affinitymws.dev/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Affinity Marketing &amp; Web Solutions &raquo; Comments Feed" href="https://affinitymws.dev/comments/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"wpemoji":"https:\/\/affinitymws.dev\/wp\/wp-includes\/js\/wp-emoji.js?ver=4.9","twemoji":"https:\/\/affinitymws.dev\/wp\/wp-includes\/js\/twemoji.js?ver=4.9"}};
+( function( window, document, settings ) {
+var src, ready, ii, tests;
+/*
+* Create a canvas element for testing native browser support
+* of emoji.
+*/
+var canvas = document.createElement( 'canvas' );
+var context = canvas.getContext && canvas.getContext( '2d' );
+/**
+* Check if two sets of Emoji characters render the same.
+*
+* @param set1 array Set of Emoji characters.
+* @param set2 array Set of Emoji characters.
+* @returns {boolean} True if the two sets render the same.
+*/
+function emojiSetsRenderIdentically( set1, set2 ) {
+var stringFromCharCode = String.fromCharCode;
+// Cleanup from previous test.
+context.clearRect( 0, 0, canvas.width, canvas.height );
+context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+var rendered1 = canvas.toDataURL();
+// Cleanup from previous test.
+context.clearRect( 0, 0, canvas.width, canvas.height );
+context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+var rendered2 = canvas.toDataURL();
+return rendered1 === rendered2;
+}
+/**
+* Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
+* made of two characters, so some browsers (notably, Firefox OS X) don't support them.
+*
+* @since 4.2.0
+*
+* @param type {String} Whether to test for support of "flag" or "emoji".
+* @return {Boolean} True if the browser can render emoji, false if it cannot.
+*/
+function browserSupportsEmoji( type ) {
+var isIdentical;
+if ( ! context || ! context.fillText ) {
+return false;
+}
+/*
+* Chrome on OS X added native emoji rendering in M41. Unfortunately,
+* it doesn't work when the font is bolder than 500 weight. So, we
+* check for bold rendering support to avoid invisible emoji in Chrome.
+*/
+context.textBaseline = 'top';
+context.font = '600 32px Arial';
+switch ( type ) {
+case 'flag':
+/*
+* Test for UN flag compatibility. This is the least supported of the letter locale flags,
+* so gives us an easy test for full support.
+*
+* To test for support, we try to render it, and compare the rendering to how it would look if
+* the browser doesn't render it correctly ([U] + [N]).
+*/
+isIdentical = emojiSetsRenderIdentically(
+[ 55356, 56826, 55356, 56819 ],
+[ 55356, 56826, 8203, 55356, 56819 ]
+);
+if ( isIdentical ) {
+return false;
+}
+/*
+* Test for English flag compatibility. England is a country in the United Kingdom, it
+* does not have a two letter locale code but rather an five letter sub-division code.
+*
+* To test for support, we try to render it, and compare the rendering to how it would look if
+* the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+*/
+isIdentical = emojiSetsRenderIdentically(
+[ 55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447 ],
+[ 55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447 ]
+);
+return ! isIdentical;
+case 'emoji':
+/*
+* Emoji 5 has fairies of all genders.
+*
+* To test for support, try to render a new emoji (fairy, male), then compares
+* it to how it would look if the browser doesn't render it correctly
+* (fairy + male sign).
+*/
+isIdentical = emojiSetsRenderIdentically(
+[ 55358, 56794, 8205, 9794, 65039 ],
+[ 55358, 56794, 8203, 9794, 65039 ]
+);
+return ! isIdentical;
+}
+return false;
+}
+function addScript( src ) {
+var script = document.createElement( 'script' );
+script.src = src;
+script.defer = script.type = 'text/javascript';
+document.getElementsByTagName( 'head' )[0].appendChild( script );
+}
+tests = Array( 'flag', 'emoji' );
+settings.supports = {
+everything: true,
+everythingExceptFlag: true
+};
+for( ii = 0; ii < tests.length; ii++ ) {
+settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+if ( 'flag' !== tests[ ii ] ) {
+settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+}
+}
+settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+settings.DOMReady = false;
+settings.readyCallback = function() {
+settings.DOMReady = true;
+};
+if ( ! settings.supports.everything ) {
+ready = function() {
+settings.readyCallback();
+};
+if ( document.addEventListener ) {
+document.addEventListener( 'DOMContentLoaded', ready, false );
+window.addEventListener( 'load', ready, false );
+} else {
+window.attachEvent( 'onload', ready );
+document.attachEvent( 'onreadystatechange', function() {
+if ( 'complete' === document.readyState ) {
+settings.readyCallback();
+}
+} );
+}
+src = settings.source || {};
+if ( src.concatemoji ) {
+addScript( src.concatemoji );
+} else if ( src.wpemoji && src.twemoji ) {
+addScript( src.twemoji );
+addScript( src.wpemoji );
+}
+}
+} )( window, document, window._wpemojiSettings );
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+display: inline !important;
+border: none !important;
+box-shadow: none !important;
+height: 1em !important;
+width: 1em !important;
+margin: 0 .07em !important;
+vertical-align: -0.1em !important;
+background: none !important;
+padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='sydney-bootstrap-css'  href='https://affinitymws.dev/app/themes/sydney/css/bootstrap/bootstrap.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://affinitymws.dev/app/plugins/contact-form-7/includes/css/styles.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-panels-front-css'  href='https://affinitymws.dev/app/plugins/siteorigin-panels/css/front-flex.css?ver=2.5.16' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='https://affinitymws.dev/app/themes/sydney/style.css?ver=4.9' type='text/css' media='all' />
+<link rel='stylesheet' id='sydney-fonts-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C400italic%2C600%7CRaleway%3A400%2C500%2C600' type='text/css' media='all' />
+<link rel='stylesheet' id='sydney-style-css'  href='https://affinitymws.dev/app/themes/sydney-child/style.css?ver=20170504' type='text/css' media='all' />
+<style id='sydney-style-inline-css' type='text/css'>
+.site-title { font-size:28px; }
+.site-description { font-size:16px; }
+#mainnav ul li a { font-size:18px; }
+h1 { font-size:52px; }
+h2 { font-size:42px; }
+h3 { font-size:32px; }
+h4 { font-size:25px; }
+h5 { font-size:20px; }
+h6 { font-size:18px; }
+body { font-size:16px; }
+.single .hentry .title-post { font-size:36px; }
+.header-image { background-size:cover;}
+.header-image { height:300px; }
+.widget-area .widget_fp_social a,#mainnav ul li a:hover, .sydney_contact_info_widget span, .roll-team .team-content .name,.roll-team .team-item .team-pop .team-social li:hover a,.roll-infomation li.address:before,.roll-infomation li.phone:before,.roll-infomation li.email:before,.roll-testimonials .name,.roll-button.border,.roll-button:hover,.roll-icon-list .icon i,.roll-icon-list .content h3 a:hover,.roll-icon-box.white .content h3 a,.roll-icon-box .icon i,.roll-icon-box .content h3 a:hover,.switcher-container .switcher-icon a:focus,.go-top:hover,.hentry .meta-post a:hover,#mainnav > ul > li > a.active, #mainnav > ul > li > a:hover, button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .text-color, .social-menu-widget a, .social-menu-widget a:hover, .archive .team-social li a, a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,.classic-alt .meta-post a,.single .hentry .meta-post a { color:#42bfb2}
+.reply,.woocommerce div.product .woocommerce-tabs ul.tabs li.active,.woocommerce #respond input#submit,.woocommerce a.button,.woocommerce button.button,.woocommerce input.button,.project-filter li a.active, .project-filter li a:hover,.preloader .pre-bounce1, .preloader .pre-bounce2,.roll-team .team-item .team-pop,.roll-progress .progress-animate,.roll-socials li a:hover,.roll-project .project-item .project-pop,.roll-project .project-filter li.active,.roll-project .project-filter li:hover,.roll-button.light:hover,.roll-button.border:hover,.roll-button,.roll-icon-box.white .icon,.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span,.go-top,.bottom .socials li:hover a,.sidebar .widget:before,.blog-pagination ul li.active,.blog-pagination ul li:hover a,.content-area .hentry:after,.text-slider .maintitle:after,.error-wrap #search-submit:hover,#mainnav .sub-menu li:hover > a,#mainnav ul li ul:after, button, input[type="button"], input[type="reset"], input[type="submit"], .panel-grid-cell .widget-title:after { background-color:#42bfb2}
+.roll-socials li a:hover,.roll-socials li a,.roll-button.light:hover,.roll-button.border,.roll-button,.roll-icon-list .icon,.roll-icon-box .icon,.owl-theme .owl-controls .owl-page span,.comment .comment-detail,.widget-tags .tag-list a:hover,.blog-pagination ul li,.hentry blockquote,.error-wrap #search-submit:hover,textarea:focus,input[type="text"]:focus,input[type="password"]:focus,input[type="datetime"]:focus,input[type="datetime-local"]:focus,input[type="date"]:focus,input[type="month"]:focus,input[type="time"]:focus,input[type="week"]:focus,input[type="number"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="color"]:focus, button, input[type="button"], input[type="reset"], input[type="submit"], .archive .team-social li a { border-color:#42bfb2}
+.site-header.float-header { background-color:rgba(255,255,255,0.9);}
+@media only screen and (max-width: 1024px) { .site-header { background-color:#ffffff;}}
+.site-title a, .site-title a:hover { color:#020202}
+.site-description { color:#ffffff}
+#mainnav ul li a, #mainnav ul li::before { color:#020202}
+#mainnav .sub-menu li a { color:#020202}
+#mainnav .sub-menu li a { background:#ffffff}
+.text-slider .maintitle, .text-slider .subtitle { color:#020202}
+body { color:#435660}
+#secondary { background-color:#ffffff}
+#secondary, #secondary a, #secondary .widget-title { color:#767676}
+.footer-widgets { background-color:#252525}
+#sidebar-footer,#sidebar-footer a,.footer-widgets .widget-title { color:#e5e5e5}
+.btn-menu { color:#020202}
+#mainnav ul li a:hover { color:#42bfb2}
+.site-footer { background-color:#1c1c1c}
+.site-footer,.site-footer a { color:#666666}
+.overlay { background-color:#000000}
+.page-wrap { padding-top:70px;}
+.page-wrap { padding-bottom:70px;}
+@media only screen and (max-width: 1025px) {		
+.mobile-slide {
+display: block;
+}
+.slide-item {
+background-image: none !important;
+}
+.header-slider {
+}
+.slide-item {
+height: auto !important;
+}
+.slide-inner {
+min-height: initial;
+} 
+}
+@media only screen and (max-width: 780px) { 
+h1 { font-size: 32px;}
+h2 { font-size: 28px;}
+h3 { font-size: 22px;}
+h4 { font-size: 18px;}
+h5 { font-size: 16px;}
+h6 { font-size: 14px;}
+}
+</style>
+<link rel='stylesheet' id='sydney-font-awesome-css'  href='https://affinitymws.dev/app/themes/sydney/fonts/font-awesome.min.css?ver=4.9' type='text/css' media='all' />
+<!--[if lte IE 9]>
+<link rel='stylesheet' id='sydney-ie9-css'  href='https://affinitymws.dev/app/themes/sydney/css/ie9.css?ver=4.9' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='affinity-googleFonts-css'  href='https://fonts.googleapis.com/css?family=Archivo+Black%7CComfortaa%7CShrikhand%7CUbuntu+Condensed&#038;ver=4.9' type='text/css' media='all' />
+<script type='text/javascript' src='https://affinitymws.dev/wp/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://affinitymws.dev/wp/wp-includes/js/jquery/jquery-migrate.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://affinitymws.dev/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://affinitymws.dev/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://affinitymws.dev/wp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9" />
+<link rel='shortlink' href='https://affinitymws.dev/' />
+<link rel="alternate" type="application/json+oembed" href="https://affinitymws.dev/wp-json/oembed/1.0/embed?url=https%3A%2F%2Faffinitymws.dev%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://affinitymws.dev/wp-json/oembed/1.0/embed?url=https%3A%2F%2Faffinitymws.dev%2F&#038;format=xml" />
+<script type="text/javascript">
+(function(url){
+if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+var addEvent = function(evt, handler) {
+if (window.addEventListener) {
+document.addEventListener(evt, handler, false);
+} else if (window.attachEvent) {
+document.attachEvent('on' + evt, handler);
+}
+};
+var removeEvent = function(evt, handler) {
+if (window.removeEventListener) {
+document.removeEventListener(evt, handler, false);
+} else if (window.detachEvent) {
+document.detachEvent('on' + evt, handler);
+}
+};
+var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+var logHuman = function() {
+var wfscr = document.createElement('script');
+wfscr.type = 'text/javascript';
+wfscr.async = true;
+wfscr.src = url + '&r=' + Math.random();
+(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+for (var i = 0; i < evts.length; i++) {
+removeEvent(evts[i], logHuman);
+}
+};
+for (var i = 0; i < evts.length; i++) {
+addEvent(evts[i], logHuman);
+}
+})('//affinitymws.dev/?wordfence_lh=1&hid=E0E151494AF517332EEFBCC78C9C59BD');
+</script>				<style type="text/css" media="all"
+id="siteorigin-panels-layouts-head">/* Layout 14 */ #pgc-14-0-0 , #pgc-14-1-0 , #pgc-14-2-0 , #pgc-14-3-0 { width:100%;width:calc(100% - ( 0 * 30px ) ) } #pg-14-0 , #pg-14-1 , #pg-14-2 , #pl-14 .so-panel , #pl-14 .so-panel:last-child { margin-bottom:0px } #pg-14-0.panel-no-style, #pg-14-0.panel-has-style > .panel-row-style , #pg-14-1.panel-no-style, #pg-14-1.panel-has-style > .panel-row-style , #pg-14-2.panel-no-style, #pg-14-2.panel-has-style > .panel-row-style , #pg-14-3.panel-no-style, #pg-14-3.panel-has-style > .panel-row-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-14-0.panel-no-style, #pg-14-0.panel-has-style > .panel-row-style , #pg-14-1.panel-no-style, #pg-14-1.panel-has-style > .panel-row-style , #pg-14-2.panel-no-style, #pg-14-2.panel-has-style > .panel-row-style , #pg-14-3.panel-no-style, #pg-14-3.panel-has-style > .panel-row-style { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-14-0 .panel-grid-cell , #pg-14-1 .panel-grid-cell , #pg-14-2 .panel-grid-cell , #pg-14-3 .panel-grid-cell { margin-right:0 } #pg-14-0 .panel-grid-cell , #pg-14-1 .panel-grid-cell , #pg-14-2 .panel-grid-cell , #pg-14-3 .panel-grid-cell { width:100% } #pl-14 .panel-grid-cell { padding:0 } #pl-14 .panel-grid .panel-grid-cell-empty { display:none } #pl-14 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } </style><link rel="icon" href="https://affinitymws.dev/app/uploads/2014/10/cropped-favicon1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://affinitymws.dev/app/uploads/2014/10/cropped-favicon1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://affinitymws.dev/app/uploads/2014/10/cropped-favicon1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://affinitymws.dev/app/uploads/2014/10/cropped-favicon1-270x270.png" />
+</head>
+<body class="home page-template page-template-page-templates page-template-page_front-page page-template-page-templatespage_front-page-php page page-id-14 siteorigin-panels siteorigin-panels-before-js siteorigin-panels-home group-blog">
+<div class="preloader">
+<div class="spinner">
+<div class="pre-bounce1"></div>
+<div class="pre-bounce2"></div>
+</div>
+</div>
+<div id="page" class="hfeed site">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<header id="masthead" class="site-header" role="banner">
+<div class="header-wrap">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-sm-8 col-xs-12">
+<h1 class="site-title"><a href="https://affinitymws.dev/" rel="home">Affinity Marketing &amp; Web Solutions</a></h1>
+<h2 class="site-description"></h2>	        
+</div>
+<div class="col-md-6 col-sm-4 col-xs-12">
+<div class="btn-menu"></div>
+<nav id="mainnav" class="mainnav" role="navigation">
+<div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-13"><a href="https://affinitymws.dev">Home</a></li>
+<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-33"><a href="https://affinitymws.dev/about-us/">About Us</a>
+<ul class="sub-menu">
+<li id="menu-item-400" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-400"><a href="https://github.com/affinitymwsolutions">Github</a></li>
+</ul>
+</li>
+<li id="menu-item-371" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-371"><a href="https://affinitymws.dev/category/recently/">Recently</a>
+<ul class="sub-menu">
+<li id="menu-item-370" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-370"><a href="https://affinitymws.dev/category/business-development/">Business Development</a></li>
+<li id="menu-item-384" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-384"><a href="https://affinitymws.dev/category/software-development/">Software Development</a></li>
+<li id="menu-item-373" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-373"><a href="https://affinitymws.dev/category/marketing-and-design/">Marketing &#038; Design</a></li>
+</ul>
+</li>
+<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://affinitymws.dev/contact/">Contact</a></li>
+</ul></div>					</nav><!-- #site-navigation -->
+</div>
+</div>
+</div>
+</div>
+</header><!-- #masthead -->
+<div class="sydney-hero-area">
+<div class="header-image">
+<div class="overlay"></div>			<img class="header-inner" src="https://affinitymws.dev/app/uploads/2014/10/cropped-BishopsSLO.jpg" width="1920" alt="Affinity Marketing &amp; Web Solutions" title="Affinity Marketing &amp; Web Solutions">
+</div>
+<div id="wp-custom-header" class="wp-custom-header"><img src="https://affinitymws.dev/app/uploads/2014/10/cropped-BishopsSLO.jpg" width="1920" height="1079" alt="Affinity Marketing &amp; Web Solutions" srcset="https://affinitymws.dev/app/uploads/2014/10/cropped-BishopsSLO.jpg 1920w, https://affinitymws.dev/app/uploads/2014/10/cropped-BishopsSLO-300x169.jpg 300w, https://affinitymws.dev/app/uploads/2014/10/cropped-BishopsSLO-768x432.jpg 768w, https://affinitymws.dev/app/uploads/2014/10/cropped-BishopsSLO-1024x575.jpg 1024w, https://affinitymws.dev/app/uploads/2014/10/cropped-BishopsSLO-830x466.jpg 830w, https://affinitymws.dev/app/uploads/2014/10/cropped-BishopsSLO-230x129.jpg 230w, https://affinitymws.dev/app/uploads/2014/10/cropped-BishopsSLO-350x197.jpg 350w, https://affinitymws.dev/app/uploads/2014/10/cropped-BishopsSLO-480x270.jpg 480w" sizes="(max-width: 1920px) 100vw, 1920px" /></div>
+</div>
+<div id="content" class="page-wrap">
+<div class="container content-wrapper">
+<div class="row">	
+<div id="primary" class="fp-content-area">
+<main id="main" class="site-main" role="main">
+<div class="entry-content">
+<div id="pl-14"  class="panel-layout" ><div id="pg-14-0"  class="panel-grid panel-has-style" ><div style="padding: 100px 0; " data-overlay="true" data-overlay-color="#000000" class="panel-row-style panel-row-style-for-14-0" ><div id="pgc-14-0-0"  class="panel-grid-cell" ><div id="panel-14-0-0-0" class="so-panel widget widget_sydney_services_type_a sydney_services_widget panel-first-child panel-last-child" data-index="0" ><div style="text-align: left;" data-title-color="#443f3f" data-headings-color="#443f3f" class="panel-widget-style panel-widget-style-for-14-0-0-0" >			<h3 class="widget-title">Our Services</h3>
+<div class="service col-md-4">
+<div class="roll-icon-box">
+<div class="icon">
+<i class="fa fa-paint-brush"></i>																			</div>
+<div class="content">
+<h3>
+Graphic Design																			</h3>
+</div><!--.info-->	
+</div>
+</div>
+<div class="service col-md-4">
+<div class="roll-icon-box">
+<div class="icon">
+<i class="fa fa-search"></i>																			</div>
+<div class="content">
+<h3>
+Market Research																			</h3>
+</div><!--.info-->	
+</div>
+</div>
+<div class="service col-md-4">
+<div class="roll-icon-box">
+<div class="icon">
+<i class="fa fa-android"></i>																			</div>
+<div class="content">
+<h3>
+Development																			</h3>
+</div><!--.info-->	
+</div>
+</div>
+</div></div></div></div></div><div id="pg-14-1"  class="panel-grid panel-has-style" ><div style="padding: 100px 0; " data-overlay="true" data-overlay-color="#000000" class="panel-row-style panel-row-style-for-14-1" ><div id="pgc-14-1-0"  class="panel-grid-cell" ><div id="panel-14-1-0-0" class="so-panel widget widget_sydney_employees sydney_employees_widget panel-first-child panel-last-child" data-index="1" ><div style="text-align: left;" data-title-color="#443f3f" data-headings-color="#443f3f" class="panel-widget-style panel-widget-style-for-14-1-0-0" >
+<h3 class="widget-title">Employees</h3>
+<div class="roll-team carousel owl-carousel" data-widgetid="employees-widget-1-0-0">
+<div class="team-item">
+<div class="team-inner">
+<div class="pop-overlay">
+<div class="team-pop">
+<div class="team-info">
+<div class="name">Connor Duff</div>
+<div class="pos">Manager of Sales</div>
+<ul class="team-social">
+<li><a class="facebook" href="https://www.facebook.com/cduff95" target="_blank"><i class="fa fa-facebook"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="avatar">
+<img width="550" height="400" src="https://affinitymws.dev/app/uploads/2017/11/affinity-team-5-e1510216194751-550x400.jpg" class="attachment-sydney-medium-thumb size-sydney-medium-thumb wp-post-image" alt="" />					</div>
+</div>
+<div class="team-content">
+<div class="name">
+Connor Duff			        				        </div>
+<div class="pos">Manager of Sales</div>
+</div>
+</div><!-- /.team-item -->
+<div class="team-item">
+<div class="team-inner">
+<div class="pop-overlay">
+<div class="team-pop">
+<div class="team-info">
+<div class="name">Joe Benson</div>
+<div class="pos">Product Development Manager</div>
+<ul class="team-social">
+<li><a class="facebook" href="https://www.facebook.com/joe.benson.39" target="_blank"><i class="fa fa-facebook"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="avatar">
+<img width="550" height="400" src="https://affinitymws.dev/app/uploads/2017/11/affinity-team-4-e1510216245495-550x400.jpg" class="attachment-sydney-medium-thumb size-sydney-medium-thumb wp-post-image" alt="" />					</div>
+</div>
+<div class="team-content">
+<div class="name">
+Joe Benson			        				        </div>
+<div class="pos">Product Development Manager</div>
+</div>
+</div><!-- /.team-item -->
+<div class="team-item">
+<div class="team-inner">
+<div class="pop-overlay">
+<div class="team-pop">
+<div class="team-info">
+<div class="name">Andrew Exton</div>
+<div class="pos">Software Development Manager</div>
+<ul class="team-social">
+<li><a class="facebook" href="https://www.facebook.com/andrew.exton" target="_blank"><i class="fa fa-facebook"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="avatar">
+<img width="550" height="400" src="https://affinitymws.dev/app/uploads/2017/11/affinity-team-6-e1510216283187-550x400.jpg" class="attachment-sydney-medium-thumb size-sydney-medium-thumb wp-post-image" alt="" />					</div>
+</div>
+<div class="team-content">
+<div class="name">
+Andrew Exton			        				        </div>
+<div class="pos">Software Development Manager</div>
+</div>
+</div><!-- /.team-item -->
+</div>
+<a href="/employees" class="roll-button more-button">
+Our hard workers							</a>
+</div></div></div></div></div><div id="pg-14-2"  class="panel-grid panel-has-style" ><div style="padding: 100px 0; " data-overlay="true" data-overlay-color="#000000" class="panel-row-style panel-row-style-for-14-2" ><div id="pgc-14-2-0"  class="panel-grid-cell" ><div id="panel-14-2-0-0" class="so-panel widget widget_sydney_testimonials sydney_testimonials_widget panel-first-child panel-last-child" data-index="2" ><div style="text-align: left;" data-title-color="#443f3f" data-headings-color="#443f3f" class="panel-widget-style panel-widget-style-for-14-2-0-0" >			<h3 class="widget-title">Testimonials</h3>			<div class="col-md-12">
+<div class="roll-testimonials" data-autoplay="5000">
+<div class="customer">
+<blockquote class="whisper"><p>Thank you for all your hard work Affinity. We absolutely<br />
+love the website and working with you guys!</p>
+</blockquote>                               
+<div class="name">
+Mike Sloan &#8211; Trek Fresh Toothbrush                            	<span>Entrepreneur</span>
+</div>
+</div>
+<div class="customer">
+<blockquote class="whisper"><p>The guys at Affinity Solutions have been great supporters. These guys cold called me and they were so wonderful when I met them for the first time. They are willing to help with any issues and are consistent about calling and checking up on me. I am thankful that they found me and are able to build me a beautiful website. I would recommend Affinity Solutions to anyone.</p>
+</blockquote>                               
+<div class="name">
+Madyline Braught                            	<span>Photography</span>
+</div>
+</div>
+<div class="customer">
+<blockquote class="whisper"><p>Very professional and helpful. I&#8217;m really satisfied with the work Affinity did for me and will definitely do more business with them in the future.</p>
+</blockquote>                               
+<div class="name">
+Jake Fahner                            	<span>Entrepreneur</span>
+</div>
+</div>
+</div>
+</div>	
+</div></div></div></div></div><div id="pg-14-3"  class="panel-grid panel-has-style" ><div style="padding: 100px 0; " data-overlay="true" data-overlay-color="#000000" class="panel-row-style panel-row-style-for-14-3" ><div id="pgc-14-3-0"  class="panel-grid-cell" ><div id="panel-14-3-0-0" class="so-panel widget widget_affinity_latest_news sydney_latest_news_widget panel-first-child panel-last-child" data-index="3" ><div style="text-align: left;" data-title-color="#443f3f" data-headings-color="#443f3f" class="panel-widget-style panel-widget-style-for-14-3-0-0" >		<h3 class="widget-title">Updates</h3>
+<div class="blog-post-container container col-md-4 col-sm-6 col-xs-12">
+<div class="blog-post ">
+<div class="entry-thumb">
+<a href="https://affinitymws.dev/affinitys-new-wave/" title="Affinity&#8217;s New Wave">
+<img width="550" height="400" src="https://affinitymws.dev/app/uploads/2017/11/Open-Source-Word-Cloud-550x400.jpg" class="attachment-sydney-medium-thumb size-sydney-medium-thumb wp-post-image" alt="" />						</a>			
+</div>	
+<div class="entry-details">
+<h4 class="entry-title"><a href="https://affinitymws.dev/affinitys-new-wave/" rel="bookmark">Affinity&#8217;s New Wave</a></h4>					<div class="entry-summary"><p>Affinity Marketing and Web Solutions, LLC is proud to announce what we would like to call our, &#8220;New Wave&#8221;. Since our foundation, this company has relied on the vast expanse of open source software available for the development community&#8217;s benefit and advancement. Let&#8217;s face it, the internet as we know it today wouldn&#8217;t exist without [&hellip;]</p>
+</div>
+</div>
+</div>						
+</div>
+<div class="blog-post-container container col-md-4 col-sm-6 col-xs-12">
+<div class="blog-post ">
+<div class="entry-thumb">
+<a href="https://affinitymws.dev/trekfresh-toothbrush/" title="CLIENT: TrekFresh Toothbrush">
+<img width="550" height="400" src="https://affinitymws.dev/app/uploads/2017/06/TrekFreshToothbrushHeader-550x400.jpg" class="attachment-sydney-medium-thumb size-sydney-medium-thumb wp-post-image" alt="Trek Fresh Toothbrush Header Image and Product" />						</a>			
+</div>	
+<div class="entry-details">
+<h4 class="entry-title"><a href="https://affinitymws.dev/trekfresh-toothbrush/" rel="bookmark">CLIENT: TrekFresh Toothbrush</a></h4>					<div class="entry-summary"><p>https://trekfreshtoothbrush.com If your a traveler, hiker, business person, or even a parent, TrekFresh has the product for you! As an all in one oral hygiene kit, the TrekFresh Toothbrush includes dental floss, toothpaste, and a toothbrush in an easy to use portable traveling case. Get yours today at their online shop, as always, built with ❤, [&hellip;]</p>
+</div>
+</div>
+</div>						
+</div>
+<div class="blog-post-container container col-md-4 col-sm-6 col-xs-12">
+<div class="blog-post ">
+<div class="entry-thumb">
+<a href="https://affinitymws.dev/graphic-design-inspiration-feb-2017/" title="Graphic Design Inspiration &#8211; Feb. 2017">
+<img width="550" height="400" src="https://affinitymws.dev/app/uploads/2017/02/alena-aenami-7p-m-1k-550x400.jpg" class="attachment-sydney-medium-thumb size-sydney-medium-thumb wp-post-image" alt="" />						</a>			
+</div>	
+<div class="entry-details">
+<h4 class="entry-title"><a href="https://affinitymws.dev/graphic-design-inspiration-feb-2017/" rel="bookmark">Graphic Design Inspiration &#8211; Feb. 2017</a></h4>					<div class="entry-summary"><p>This will be the first of my series of graphic design and marketing inspiration posts. I intend to share marketing material and designs that I find visually appealing and highlighting certain aspects of each I admire. Hope you enjoy! Here it goes&#8230; As soon as I stumbled across this print I was captivated by it&#8217;s [&hellip;]</p>
+</div>
+</div>
+</div>						
+</div>
+<a href="https://affinitymws.dev/category/recently/" class="roll-button more-button">Stay in the (hyper) loop!</a>
+</div></div></div></div></div></div>							</div><!-- .entry-content -->
+</main><!-- #main -->
+</div><!-- #primary -->
+			</div>
+</div>
+</div><!-- #content -->
+<div id="sidebar-footer" class="footer-widgets widget-area" role="complementary">
+<div class="container">
+<div class="sidebar-column col-md-4">
+<aside id="sydney_contact_info-3" class="widget sydney_contact_info_widget"><h3 class="widget-title">Information</h3><div class="contact-address"><span><i class="fa fa-home"></i></span>San Luis Obispo, CA</div><div class="contact-phone"><span><i class="fa fa-phone"></i></span>(714) 466-0333</div><div class="contact-email"><span><i class="fa fa-envelope"></i></span><a href="mailto:a&#102;f&#105;n&#105;tymw&#115;&#111;&#108;ution&#115;&#64;&#103;mail.c&#111;&#109;">a&#102;f&#105;n&#105;tymw&#115;&#111;&#108;ution&#115;&#64;&#103;mail.c&#111;&#109;</a></div></aside>				</div>
+<div class="sidebar-column col-md-4">
+<aside id="fp_social-4" class="widget widget_fp_social">		<h3 class="widget-title"><span class="wow bounce">Social Media</span></h3>				<div class="menu-social-container"><ul id="menu-social" class="menu social-menu-widget clearfix"><li id="menu-item-41" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41"><a href="https://www.facebook.com/affinitymarketingandwebsolutions/"><span class="screen-reader-text">Facebook</span></a></li>
+<li id="menu-item-42" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42"><a href="https://www.instagram.com/affinity_mws/"><span class="screen-reader-text">Instagram</span></a></li>
+<li id="menu-item-369" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-369"><a href="https://www.youtube.com/channel/UCa8OBK5vjzHwfMHhyMAf6gw"><span class="screen-reader-text">Youtube</span></a></li>
+</ul></div>	
+</aside>				</div>
+<div class="sidebar-column col-md-4">
+<aside id="sydney_action-4" class="widget sydney_action_widget"><h3 class="widget-title">Contact Us</h3>        <div class="roll-promobox ">
+<div class="promo-wrap">
+<div class="promo-content">
+<h3 class="title">Please feel free to get in touch with us for more information!</h3>
+</div>
+<div class="promo-controls">
+<a href="/contact" class="roll-button border">Contact</a>
+</div>
+</div>
+</div>
+</aside>				</div>
+</div>	
+</div>	
+<a class="go-top"><i class="fa fa-angle-up"></i></a>
+<footer id="colophon" class="site-footer" role="contentinfo">
+<div class="site-info container">
+<p>Creating ideas with <a id="beating-heart">♥</a></p>
+<p><a href="https://affinitymws.com">Affinity Marketing and Web Solutions, LLC</a></p>
+</div><!-- .site-info -->
+</footer><!-- #colophon -->
+</div><!-- #page -->
+<!-- Piwik -->
+<script type="text/javascript">
+var _paq = _paq || [];
+/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+var u="//analytics.affinitymwsolutions.com/";
+_paq.push(['setTrackerUrl', u+'piwik.php']);
+_paq.push(['setSiteId', '20']);
+var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+})();
+</script>
+<!-- End Piwik Code -->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/affinitymws.dev\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://affinitymws.dev/app/plugins/contact-form-7/includes/js/scripts.js?ver=4.9.1'></script>
+<script type='text/javascript' src='https://affinitymws.dev/app/themes/sydney/js/scripts.js?ver=4.9'></script>
+<script type='text/javascript' src='https://affinitymws.dev/app/themes/sydney/js/main.min.js?ver=20170504'></script>
+<script type='text/javascript' src='https://affinitymws.dev/app/themes/sydney/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='https://affinitymws.dev/wp/wp-includes/js/wp-embed.js?ver=4.9'></script>
+<script type='text/javascript' src='https://affinitymws.dev/wp/wp-includes/js/wp-a11y.js?ver=4.9'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpCustomHeaderSettings = {"mimeType":"video\/mp4","posterUrl":"https:\/\/affinitymws.dev\/app\/uploads\/2014\/10\/cropped-BishopsSLO.jpg","videoUrl":"https:\/\/affinitymws.dev\/app\/uploads\/2017\/11\/AFFINITY_PROMO_4_DRAFT_5_WEB.mp4","width":"1920","height":"1079","minWidth":"100","minHeight":"100","l10n":{"pause":"<i class=\"fa fa-pause\"><\/i>","play":"<i class=\"fa fa-play\"><\/i>","pauseSpeak":"Video is paused.","playSpeak":"Video is playing."}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://affinitymws.dev/wp/wp-includes/js/wp-custom-header.js?ver=4.9'></script>
+<script type="text/javascript">document.body.className = document.body.className.replace("siteorigin-panels-before-js","");</script>
+</body>
+</html><!-- WP Fastest Cache file was created in 1.2507901191711 seconds, on 27-11-17 0:04:28 -->

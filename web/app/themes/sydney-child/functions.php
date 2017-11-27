@@ -7,6 +7,17 @@ function enqueue_parent_styles(){
 }
 
 /*
+ * Register Google Fonts
+ */
+function load_fonts() {
+  wp_register_style( 'affinity-googleFonts', 'https://fonts.googleapis.com/css?family=Archivo+Black|Comfortaa|Shrikhand|Ubuntu+Condensed');
+  wp_enqueue_style( 'affinity-googleFonts');
+}
+add_action( 'wp_print_styles', 'load_fonts');
+
+
+
+/*
  * Requiring latest news widget file from childtheme
  */
 require get_stylesheet_directory() . "/widgets/affinity-latest-news.php";

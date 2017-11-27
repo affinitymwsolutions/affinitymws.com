@@ -8,6 +8,19 @@ Template: sydney
 Version: 1.0.0
 */
 
+/* FONTS */
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  /* font-family: 'Ubuntu Condensed', sans-serif !important; */
+  font-family: 'Comfortaa', cursive !important;
+}
+
+/* BODY */
+
 header#masthead {
   background: #FFF;
   border-bottom: 1px solid black;
@@ -37,7 +50,6 @@ header#masthead {
   box-shadow: inset 0px 12px 15px -10px rgba(0, 0, 0, 0.4);
 }
 
-
 .site-footer,
 .site-footer a {
   color: #DEDEDE;
@@ -46,6 +58,7 @@ header#masthead {
 .site-info.container {
     text-align: center;
 }
+
 
 .footer-widgets {
   background-color:#393939 !important;
@@ -59,6 +72,31 @@ header#masthead {
 
 .footer-widgets .widget-title {
   font-size: 20px;
+}
+
+/* Rounded Corners */
+.sydney_testimonials_widget,
+.widget_fp_social,
+.sydney_action_widget,
+.sydney_contact_info_widget,
+.sydney_latest_news_widget .blog-post {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.team-item {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+.page-wrap {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+.entry-content img {
+  padding: 14px;
 }
 
 .roll-team.carousel .team-item {
