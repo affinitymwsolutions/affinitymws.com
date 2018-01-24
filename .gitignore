@@ -18,3 +18,9 @@ web/.htaccess
 # Composer
 vendor/*
 !vendor/.gitkeep
+
+# Wordfence
+web/app/wflogs
+
+# EWWW Image Compresser
+web/app/ewww
