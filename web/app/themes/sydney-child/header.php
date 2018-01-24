@@ -11,6 +11,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name=“google-site-verification” content=“SLDR4ff58OSblwyve1t5x2Bl9dzH1_DpYrUOYNLqnCs” />
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) : ?>
