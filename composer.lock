@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b1685ed4053f4c51e58801cf15a3023a",
+    "content-hash": "d227fbdd21979c0b55383ed16dac8985",
     "packages": [
         {
             "name": "andrewexton373/wp-sync-db",
@@ -671,15 +671,15 @@
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",
-            "version": "2.5.16",
+            "version": "2.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
-                "reference": "tags/2.5.16"
+                "reference": "tags/2.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.5.16.zip",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.6.2.zip",
                 "reference": null,
                 "shasum": null
             },
